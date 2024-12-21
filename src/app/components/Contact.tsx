@@ -1,66 +1,8 @@
-/*"use client"
-import React from 'react'
-import { IoIosMail } from "react-icons/io";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import { FaSquareInstagram } from "react-icons/fa6";
-import { FaTwitter } from "react-icons/fa";
-
-
-const Contact = () => {
-  return (
-    <div id="contact" className="pt-32 container">
-        <div className="grid md:grid-cols-2 gap-10">
-            <div className="space-y-8">
-                <h2 className="text-5xl"  data-aos="zoom-in-right">Get in touch</h2>
-                <p className="text-gray-400 text-[18px] pt-2"  data-aos="zoom-in-right"> 
-                    Drop me a line, give me a call, or send message by submitting the form</p>
-                    <div className="flex gap-3 items-center"  data-aos="zoom-in-right">
-                    <IoIosMail size={30}/> laiqaeman1011@gmail.com
-                    </div>
-                    <div className="flex gap-3 items-center"  data-aos="zoom-in-right">
-                    <BsFillTelephoneFill size={30} /> (+92)3997755443
-                    </div>
-                    <div className="flex gap-3 items-center"  data-aos="zoom-in-right">
-                    <FaSquareInstagram size={30}/> laiqaeman0101
-                    </div>
-                    <div className="flex gap-3 items-center"  data-aos="zoom-in-right">
-                    < FaTwitter size={30}/> Emanlaiqa twitter.com
-                    </div>
-            </div>
-            <div className="space-y-8"  data-aos="zoom-in-right">
-                <div className="flex flex-col gap-1">
-                    <label htmlFor="name">Name</label>
-                    <input type="text" 
-                     className="h-[40px] bg-transparent border border-blue-500"
-                     id="name" />
-                </div>
-                <div className="flex flex-col gap-1"  data-aos="zoom-in-right">
-                    <label htmlFor="email">Email</label>
-                    <input type="text" 
-                     className="h-[40px] bg-transparent border border-blue-500"
-                     id="email" />
-                </div>
-                <div className="flex flex-col gap-1"  data-aos="zoom-in-right">
-                    <label htmlFor="Message">Message</label>
-                    <textarea  
-                     className=" bg-transparent border border-blue-500"
-                     id="Message" rows={8} >
-                     </textarea>
-                </div>
-                <button className="bg-blue-500 p-2 px-6">Send</button>
-            </div>
-        </div>
-      
-    </div>
-  )
-}
-
-export default Contact*/
 "use client";
 import React from "react";
 import { IoIosMail } from "react-icons/io";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { FaSquareInstagram } from "react-icons/fa6";
+import { FaInstagramSquare } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 
 const Contact = () => {
@@ -100,7 +42,7 @@ const Contact = () => {
             className="flex gap-3 items-center text-sm sm:text-base"
             data-aos="zoom-in-right"
           >
-            <FaSquareInstagram size={24} />
+            <FaInstagramSquare size={24} />
             <span>laiqaeman0101</span>
           </div>
           <div
