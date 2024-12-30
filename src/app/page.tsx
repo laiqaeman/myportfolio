@@ -1,11 +1,11 @@
 "use client"
-import next from "next";
-import Image from "next/image";
-import About from "../components/About";
-import Contact from "../components/Contact";
-import Hero from "../components/Hero";
-import Skill from "../components/Skill";
-import Project from "../components/Project";
+
+
+import About from "@/components/About";
+import Contact from "@/components/Contact";
+import Hero from "@/components/Hero";
+import Skill from "@/components/Skill";
+import Project from "@/components/Project";
 import "aos/dist/aos.css";
 import AOS from "aos"
 

@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div id="contact" className="pt-32 container px-4">
       <div className="grid gap-10 md:grid-cols-2">
-        {/* Left Section */}
+        
         <div className="space-y-8">
           <h2
             className="text-3xl sm:text-4xl md:text-5xl text-center border-b-4 w-max mx-auto pb-2"
