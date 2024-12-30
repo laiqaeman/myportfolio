@@ -7,7 +7,7 @@ import Hero from "@/components/Hero";
 import Skill from "@/components/Skill";
 import Project from "@/components/Project";
 import "aos/dist/aos.css";
-import AOS from "aos"
+import AOS from 'aos';
 
 
 import { useEffect } from "react";
