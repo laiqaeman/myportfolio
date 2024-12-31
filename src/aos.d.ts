@@ -1,5 +1,7 @@
 declare module 'aos' {
-    var AOS: any;
-    export = AOS;
-  }
-  
+   // eslint-disable-next-line @typescript-eslint/no-explicit-any
+   let AOS: any;
+   export = AOS;
+}
+
+
